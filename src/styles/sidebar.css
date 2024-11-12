@@ -1,0 +1,36 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+    height: 94vh;
+}
+.logo{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    color: #27374d;
+    font-size: 18px;
+}
+.menu-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.menu-list .item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    color: #27374d;
+}
+.menu-list .item:hover{
+    background: #27374d;
+    color: #dde6ed;
+}
